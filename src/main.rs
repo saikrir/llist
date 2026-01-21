@@ -1,6 +1,7 @@
 use crate::boxed::LinkedList;
 
 mod boxed;
+mod refed;
 
 fn main() {
     let mut list = LinkedList::<String>::new();
